@@ -1,3 +1,5 @@
+//function that prints prime numbers between two given number via terminal
+
 function primeNumbers(lowNumber, highNumber){
     if(lowNumber <= 2 && highNumber >= 2)
         console.log(2)
@@ -24,6 +26,7 @@ function primeNumbers(lowNumber, highNumber){
     }
 }
 
-primeNumbers(0, 25)
+lowNumber = parseInt(process.argv[2]) 
+highNumber = parseInt(process.argv[3])
 
-console.log(process.argv)
+primeNumbers(lowNumber, highNumber)
