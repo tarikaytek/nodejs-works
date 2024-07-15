@@ -26,7 +26,9 @@ function primeNumbers(lowNumber, highNumber){
     }
 }
 
-lowNumber = parseInt(process.argv[2]) 
-highNumber = parseInt(process.argv[3])
+export default primeNumbers;
 
-primeNumbers(lowNumber, highNumber)
+// lowNumber = parseInt(process.argv[2]) 
+// highNumber = parseInt(process.argv[3])
+
+// primeNumbers(lowNumber, highNumber)
